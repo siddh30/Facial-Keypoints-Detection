@@ -5,7 +5,7 @@
 EE-628-A Deep Learning: Final Project using PyTorch.
 * The link :- https://www.kaggle.com/c/facial-keypoints-detection/overview.
 
-## OUR MOTIVATION TO CHOOSE THIS PROJECT:
+## MOTIVATION:
 
 Our reason for choosing this project is primarily based on our interest in applying deep learning to significant problems currently prevelant in the industry . Facial recognition is a very popular biometric technique these days. Various developments have already been observed in facial recognition technologies, but there is still a huge scope and a need for improvement. We are excited about applying the applications of Facial Key Points Detection as a building block in several applications such as tracking faces in images and videos, Analysing Facial Expressions, Detecting Dysmorphic Facial Signs for Medical Diagnosis and Biometrics/ Face Recognition. 
 
