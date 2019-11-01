@@ -5,7 +5,7 @@
 EE-628-A Deep Learning: Final Project using PyTorch.
 * The link :- https://www.kaggle.com/c/facial-keypoints-detection/overview.
 
-## 1.OUR MOTIVATION TO CHOOSE THIS PROJECT:
+## OUR MOTIVATION TO CHOOSE THIS PROJECT:
 
 Our reason for choosing this project is primarily based on our interest in applying deep learning to significant problems currently prevelant in the industry . Facial recognition is a very popular biometric technique these days. Various developments have already been observed in facial recognition technologies, but there is still a huge scope and a need for improvement. We are excited about applying the applications of Facial Key Points Detection as a building block in several applications such as tracking faces in images and videos, Analysing Facial Expressions, Detecting Dysmorphic Facial Signs for Medical Diagnosis and Biometrics/ Face Recognition. 
 
@@ -13,7 +13,7 @@ Detecting facial keypoints is a challenging problem given the variations in both
 
 We specifically chose the Facial Keypoint Detection project because it will give us an opportunity to experiment with a wide variety of deep learning approaches, work with different neural networks and solve the problems associated with it.
 
-## 2. INTRODUCTION: 
+## INTRODUCTION: 
 
 In this project we are going to address the problem proposed above by creating a model that can detect the facial features from the image dataset. The main goal is to obtain the coordinates of eyes, eyebrows, nose and mouth in the picture. These coordinates are known as keypoints. In order to be more specific about the location and orientation of these keypoints, it will be necessary in some cases to assign more than one keypoint for each facial feature. This way, the face of the subject can be perfectly defined. For this dataset, our model will provide the following coordinates:
 
@@ -25,7 +25,7 @@ In this project we are going to address the problem proposed above by creating a
 In the past few years, advancements in Facial Key Points detection have been made by the application of *Deep Convolutional Neural Network* (DCNN). DCNNs have helped build state-of-the-art models for image recognition, recommender systems, natural language processing, etc. Our intention is to make use of these architectures to address this problem, trying to use different algorithms to study which are more suitable for the proposed task.
  
 
-## 3.	DATA FILES:
+## DATA FILES:
 
 The data files which we are going to use are as follows:
 
@@ -42,7 +42,7 @@ The data files which we are going to use are as follows:
 
 <img width="168" alt="submission" src="https://user-images.githubusercontent.com/50252196/68026212-6103ce00-fc85-11e9-9886-67c51d40145f.png">
 
-## 4.	IMPLEMENTATION PLAN:
+## IMPLEMENTATION PLAN:
 
 We will be using PyTorch to implement our project. Other libraries like numpy, pandas, matplotlib, etc. will be used based on our project requirements.
 The implementation workflow will be as follows:
@@ -59,7 +59,7 @@ So, this data pre-processing step will include loading and reading the dataset a
 4)	**Visualizing the predictions**: We can visualize our predicted outputs to see predicted facial keypoints on the given face images.
 
 
-## 5.	APPLICATIONS:
+## APPLICATIONS:
 
 Some of the applications of Facial Keypoints Detection are as follows:
 
