@@ -1,4 +1,5 @@
-# Facial-Keypoints-Detection
+# Facial-Keypoints-Detection 
+(A Google Collab Project)
 
 ## By Lois, Siddharth and Rucha
 
@@ -44,12 +45,16 @@ The data files which we are going to use are as follows:
 
 ## IMPLEMENTATION PLAN:
 
-We will be using PyTorch to implement our project. Other libraries like numpy, pandas, matplotlib, etc. will be used based on our project requirements.
+We have used PyTorch to implement our project along with libraries such as numpy, pandas, matplotlib, etc. will be used based on our project requirements.
 The implementation workflow will be as follows:
-1)	**Data Pre-processing**: Mostly the datasets we get are not ready to be used for training since it requires certain amount of data pre-processing. We can perform data pre-processing to check if our dataset contains any missing values. 
-We can use this process to separate features and labels from our dataset. The image is our feature and other values are labels that we have to predict later.
-We can also reshape the images according to our requirements. 
-So, this data pre-processing step will include loading and reading the dataset and making it ready for training.
+1)	**EDA and Feature Engineering**:
+* Importing the data : Importing the json file from Kaggle which contain the username and the key for our Kaggle account.To link our Kaggle account to Google Collab, create a new API token on your Kaggle account.Creating a client by making a directory to host our Kaggle API token.After this step, use ‘kaggle competitions download -c facial-keypoints-detection’ API to import the csv and folders from the data source on Kaggle.Finally, decompress these folders to obtain our csv files.
+
+ * Data Pre-processing:Using Pandas, create data frames for our csv files and extract features which can be used in our analysis.Since our data contains some missing values, this step involves calculating, visualizing and replacing those missing values for every feature.
+ 
+
+
+
 
 
 2)	**Training**: For training, the algorithm which we are planning to use is *Convolutional Neural Network* (CNN). Other algorithms like *Adam* or *Stochastic Gradient Descent* will be used to minimize the loss function associated with this data.
