@@ -28,7 +28,7 @@ In the past few years, advancements in Facial Key Points detection have been mad
 
 ## DATA FILES:
 
-The data files which we are going to use are as follows:
+The data files which we have used are as follows:
 
 •	**training.csv**: list of training 7049 images. Each row contains the (x,y) coordinates for 15 keypoints, and image data as row-ordered list of pixels.
 
@@ -50,18 +50,19 @@ The implementation workflow will be as follows:
 1)	**EDA and Feature Engineering**:
 * Importing the data : Importing the json file from Kaggle which contain the username and the key for our Kaggle account.To link our Kaggle account to Google Collab, create a new API token on your Kaggle account.Creating a client by making a directory to host our Kaggle API token.After this step, use ‘kaggle competitions download -c facial-keypoints-detection’ API to import the csv and folders from the data source on Kaggle.Finally, decompress these folders to obtain our csv files.
 
- * Data Pre-processing:Using Pandas, create data frames for our csv files and extract features which can be used in our analysis.Since our data contains some missing values, this step involves calculating, visualizing and replacing those missing values for every feature.
- 
+ * Data Pre-processing:Using Pandas, create data frames for our csv files and extract features which can be used in our analysis.Since our data contains some missing values, this step involves calculating, visualizing and replacing those missing values for every feature.We have also used heat maps by Seaborn for finding the correlation between features.
+Then we spilt the training into keypoints and images. Each row of keypoints data contains the (x, y) coordinates for 15 keypoints, while that of images data contains the row-ordered list of pixels.
 
+* Visualizing the input image: Creating a numpy array of the pixel values in the image column of our training dataset.
+Using matplotlib to plot the image from these pixel values.
+Using features such as left_eye_center_x, nose_tip_x, etc to plot keypoints on face images.
+Formulating a gaussian function to create heatmaps of these facial keypoints.
 
+2)	**Training**: For training, the algorithms which we have used are **CNN** and **LeNet**.We have chosen ** RELU** to be our Activation function and our Optimizer function is **Adam** used to minimize the loss function associated with this data.
 
+3)	**Predictions**: After training our model using CNN and LeNet, we have evaluated our predictions using the test dataset helping us find how our loss function behaves over time. With these initial observations. We have also used used these models to predict keypoints on images from the internet.
 
-
-2)	**Training**: For training, the algorithm which we are planning to use is *Convolutional Neural Network* (CNN). Other algorithms like *Adam* or *Stochastic Gradient Descent* will be used to minimize the loss function associated with this data.
-
-3)	**Predictions**: After training our model using CNN, we can evaluate our predictions using the test dataset. This will let us know how our model will be training and decide on whether we should modify its structure or hyperparameters. This will also help us to find how our loss function behaves over time. With these initial observations, we will make changes to our model and decide the best architecture before we train for many epochs and create a final model. Then we use this final trained model to predict/ detect facial keypoints on the image.
-
-4)	**Visualizing the predictions**: We can visualize our predicted outputs to see predicted facial keypoints on the given face images.
+4)	**Visualizing the predictions**: We have finally visualized our predicted outputs to see predicted facial keypoints on the given face images.
 
 
 ## APPLICATIONS:
