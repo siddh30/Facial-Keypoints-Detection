@@ -1,4 +1,4 @@
-# Facial-Keypoints-Detection 
+# <p align = "center"><Facial-Keypoints-Detection></p> 
 (A Google Collab Project)
 
 ## By Lois, Siddharth and Rucha
