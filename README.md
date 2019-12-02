@@ -79,24 +79,19 @@ Some of the applications of Facial Keypoints Detection are as follows:
 
 • **Prevent Retail Crime**<br/>
 
-Identifying the Facial key points can be used to instantly identify when known shoplifters, organized retail criminals or people with a history of fraud enter retail establishments. Photographs of individuals can be matched against large databases of criminals so that loss prevention and retail security professionals can be instantly notified when a shopper enters a store that prevents a threat. 
 
 • **Find Missing People**<br/>
 
-Facial key points prediction can be used to find missing children and victims of human trafficking. As long as missing individuals are added to a database, law enforcement can become alerted as soon as they are recognized by recognition model based on facial key points—be it an airport, retail store or other public space. In fact, 3000 missing children were discovered in just four days using face recognition in India!
 
 • **Protect Law Enforcement**<br/>
 
-Identifying the facial key points of criminals can help police officers instantly identify individuals in the field from a safe distance. This can help by giving them contextual data that tells them who they are dealing with and whether they need to proceed with caution. As an example, if a police officer pulls over a wanted murderer at a routine traffic stop, the officer would instantly know that the suspect may be armed and dangerous and could call for reinforcement.
+
 
 • **Smarter Advertising**<br/>
 
-Facial key point detection has the ability to make advertising more targeted by making educated guesses at people’s age and gender. It’s only a matter of time before face-recognition becomes an omni-present advertising technology. Advertisements can be based on detecting age, personality, origin and can be more focused towards these consumers. 
 
 • **Security for Phones**<br/>
 
-Unlocking Smart Phones based on making prediction and detection of facial key points can ensure faster deployment speeds as well as identifying minute differences between twins and people with identical facial features.
 
 • **Deep Fake**<br/>
 
-Tackling Deep Fake. Identifying the real image or video of a person from the fake ones developed by hackers.
