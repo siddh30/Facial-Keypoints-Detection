@@ -77,6 +77,14 @@ Formulating a gaussian function to create heatmaps of these facial keypoints.
 
 <p align = "center"><img width="600" img height="600" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/validation%20images%20real%20and%20predicted%20(1).png"></p>
 
+Extending further with this implementation, we tried to take our own input image which is not necessarily a face image. We took an input image which contains a group of people. Haar cascade classifier is used for face detection in this image as shown in figure. Now we have detected the face images from our input image, we resized the face images so that it would fit our project requirements. 
+
+<p align = "center"><img width="600" img height="600" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/original%2Bface%20boxes.png"></p>
+
+Finally, we have applied our trained CNN and ResNet model to these detected face images. We successfully achieved facial keypoints detection of these images as shown in figure. So now we can use any image and locate keypoints on it.
+
+<p align = "center"><img width="600" img height="600" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/faces%2Bkeypoints.JPG"></p>
+
 ## APPLICATIONS:
 
 Some of the applications of Facial Keypoints Detection are as follows:
