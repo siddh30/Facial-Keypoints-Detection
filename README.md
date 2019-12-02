@@ -53,7 +53,7 @@ The implementation workflow will be as follows:
 
  * Data Pre-processing:Using Pandas, create data frames for our csv files and extract features which can be used in our analysis.Since our data contains some missing values, this step involves calculating, visualizing and replacing those missing values for every feature.
  
- <img width="168" src="Missing Data.png">
+ <img width="300",img height="300" src="Missing Data.png">
  
  We have also used heat maps by Seaborn for finding the correlation between features.
 Then we spilt the training into keypoints and images. Each row of keypoints data contains the (x, y) coordinates for 15 keypoints, while that of images data contains the row-ordered list of pixels.
