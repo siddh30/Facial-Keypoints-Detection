@@ -70,7 +70,7 @@ Formulating a gaussian function to create heatmaps of these facial keypoints.
 
 3)	**Predictions**: After training our model using CNN and LeNet, we have evaluated our predictions using the test dataset helping us find how our loss function behaves over time. With these initial observations. We have also used used these models to predict keypoints on images from the internet.
 
-<p align = "center"><img width="800" img height="600" src=https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/validation%20images%20real%20and%20predicted%20(1).png
+<p align = "center"><img width="600" img height="600" src=https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/validation%20images%20real%20and%20predicted%20(1).png
 ></p>
 
 4)	**Visualizing the predictions**: We have finally visualized our predicted outputs to see predicted facial keypoints on the given face images.
