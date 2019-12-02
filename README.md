@@ -53,11 +53,11 @@ The implementation workflow will be as follows:
 
  * Data Pre-processing:Using Pandas, create data frames for our csv files and extract features which can be used in our analysis.Since our data contains some missing values, this step involves calculating, visualizing and replacing those missing values for every feature.
  
- <p align = "center"><img width="600" img height="600" src="Missing Data.png"></p>
+ <p align = "center"><img width="600" img height="600" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/Missing%20Data.png"></p>
  
  We have also used heat maps by Seaborn for finding the correlation between features.
  
- <p align = "center"><img width="800" img height="600" src="HeatMaps for Correlation of features.png"></p>
+ <p align = "center"><img width="800" img height="600" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/HeatMaps%20for%20Correlation%20of%20features.png"></p>
  
 Then we spilt the training into keypoints and images. Each row of keypoints data contains the (x, y) coordinates for 15 keypoints, while that of images data contains the row-ordered list of pixels.
 
@@ -66,14 +66,16 @@ Using matplotlib to plot the image from these pixel values.
 Using features such as left_eye_center_x, nose_tip_x, etc to plot keypoints on face images.
 Formulating a gaussian function to create heatmaps of these facial keypoints.
 
+<p align = "center"><img width="600" img height="600" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/sample%2Bkeypoints%2Bheatmaps.png"></p>
+
+
 2)	**Training**: For training, the algorithms which we have used are **CNN** and **LeNet**. We have chosen ** RELU** to be our Activation function and our Optimizer function is **Adam** used to minimize the loss function associated with this data.
 
 3)	**Predictions**: After training our model using CNN and LeNet, we have evaluated our predictions using the test dataset helping us find how our loss function behaves over time. With these initial observations. We have also used used these models to predict keypoints on images from the internet.
 
 4)	**Visualizing the predictions**: We have finally visualized our predicted outputs to see predicted facial keypoints on the given face images.
 
-<p align = "center"><img width="600" img height="600" src=https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/validation%20images%20real%20and%20predicted%20(1).png
-></p>
+<p align = "center"><img width="600" img height="600" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/validation%20images%20real%20and%20predicted%20(1).png"></p>
 
 ## APPLICATIONS:
 
