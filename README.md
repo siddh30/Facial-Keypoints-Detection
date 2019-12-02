@@ -66,7 +66,7 @@ Using matplotlib to plot the image from these pixel values.
 Using features such as left_eye_center_x, nose_tip_x, etc to plot keypoints on face images.
 Formulating a gaussian function to create heatmaps of these facial keypoints.
 
-<p align = "center"><img width="400" img height="400" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/sample%2Bkeypoints%2Bheatmaps.png"></p>
+<p align = "center"><img width="600" img height="400" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/sample%2Bkeypoints%2Bheatmaps.png"></p>
 
 
 2)	**Training**: For training, the algorithms which we have used are **CNN** and **LeNet**. We have chosen ** RELU** to be our Activation function and our Optimizer function is **Adam** used to minimize the loss function associated with this data.
