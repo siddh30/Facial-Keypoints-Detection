@@ -83,7 +83,7 @@ Extending further with this implementation, we tried to take our own input image
 
 Finally, we have applied our trained CNN and ResNet model to these detected face images. We successfully achieved facial keypoints detection of these images as shown in figure. So now we can use any image and locate keypoints on it.
 
-<p align = "center"><img width="800" img height="500" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/faces%2Bkeypoints.JPG"></p>
+<p align = "center"><img width="800" img height="50" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/faces%2Bkeypoints.JPG"></p>
 
 ## APPLICATIONS:
 
