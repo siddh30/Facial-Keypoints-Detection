@@ -66,7 +66,7 @@ Using matplotlib to plot the image from these pixel values.
 Using features such as left_eye_center_x, nose_tip_x, etc to plot keypoints on face images.
 Formulating a gaussian function to create heatmaps of these facial keypoints.
 
-2)	**Training**: For training, the algorithms which we have used are **CNN** and **LeNet**.We have chosen ** RELU** to be our Activation function and our Optimizer function is **Adam** used to minimize the loss function associated with this data.
+2)	**Training**: For training, the algorithms which we have used are **CNN** and **LeNet**. We have chosen ** RELU** to be our Activation function and our Optimizer function is **Adam** used to minimize the loss function associated with this data.
 
 3)	**Predictions**: After training our model using CNN and LeNet, we have evaluated our predictions using the test dataset helping us find how our loss function behaves over time. With these initial observations. We have also used used these models to predict keypoints on images from the internet.
 
