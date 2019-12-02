@@ -53,7 +53,7 @@ The implementation workflow will be as follows:
 
  * Data Pre-processing:Using Pandas, create data frames for our csv files and extract features which can be used in our analysis.Since our data contains some missing values, this step involves calculating, visualizing and replacing those missing values for every feature.
  
- <p align = "center"><img width="600" img height="600" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/Missing%20Data.png"></p>
+ <p align = "center"><img width="800" img height="200" src="https://github.com/siddh30/Facial-Keypoints-Detection/blob/master/Observation%20Images/Missing%20Data.png"></p>
  
  We have also used heat maps by Seaborn for finding the correlation between features.
  
