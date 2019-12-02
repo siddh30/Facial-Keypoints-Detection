@@ -4,7 +4,7 @@
 ### By Lois, Siddharth and Rucha
 
 EE-628-A Deep Learning: Final Project using PyTorch.
-* The link :- https://www.kaggle.com/c/facial-keypoints-detection/overview.
+*The link :- https://www.kaggle.com/c/facial-keypoints-detection/overview.
 
 ## MOTIVATION:
 
