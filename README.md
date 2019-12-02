@@ -51,7 +51,11 @@ The implementation workflow will be as follows:
 
 * Importing the data : Importing the json file from Kaggle which contain the username and the key for our Kaggle account.To link our Kaggle account to Google Collab, create a new API token on your Kaggle account.Creating a client by making a directory to host our Kaggle API token.After this step, use ‘kaggle competitions download -c facial-keypoints-detection’ API to import the csv and folders from the data source on Kaggle.Finally, decompress these folders to obtain our csv files.
 
- * Data Pre-processing:Using Pandas, create data frames for our csv files and extract features which can be used in our analysis.Since our data contains some missing values, this step involves calculating, visualizing and replacing those missing values for every feature.We have also used heat maps by Seaborn for finding the correlation between features.
+ * Data Pre-processing:Using Pandas, create data frames for our csv files and extract features which can be used in our analysis.Since our data contains some missing values, this step involves calculating, visualizing and replacing those missing values for every feature.
+ 
+ <img width="168" alt="submission" src="Missing Data">
+ 
+ We have also used heat maps by Seaborn for finding the correlation between features.
 Then we spilt the training into keypoints and images. Each row of keypoints data contains the (x, y) coordinates for 15 keypoints, while that of images data contains the row-ordered list of pixels.
 
 * Visualizing the input image: Creating a numpy array of the pixel values in the image column of our training dataset.
