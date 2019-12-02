@@ -1,7 +1,6 @@
-# Facial-Keypoints-Detection 
-(A Google Collab Project)
+# Facial-Keypoints-Detection (A Google Collab Project)
 
-### By Lois, Siddharth and Rucha
+## By Lois, Siddharth and Rucha
 * The link :- https://www.kaggle.com/c/facial-keypoints-detection/overview.
 
 ## MOTIVATION:
