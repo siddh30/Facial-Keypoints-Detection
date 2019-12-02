@@ -57,7 +57,7 @@ The implementation workflow will be as follows:
  
  We have also used heat maps by Seaborn for finding the correlation between features.
  
- <p align = "center"><img width="600" img height="600" src="HeatMaps for Correlation of features.png"></p>
+ <p align = "center"><img width="800" img height="600" src="HeatMaps for Correlation of features.png"></p>
  
 Then we spilt the training into keypoints and images. Each row of keypoints data contains the (x, y) coordinates for 15 keypoints, while that of images data contains the row-ordered list of pixels.
 
